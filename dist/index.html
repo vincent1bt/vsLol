@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lol VS App</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+    <div class="alpha_search" id="searchDisplay">
+      <div class="search" id="search">
+        <div class="players">
+          <div class="search_player">
+            <label>Nombre de invocador</label>
+            <input type="text" name="name" value="" id="user1">
+            <label>Región
+              <select name="select" id="region1">
+                <option value="1">LAN</option>
+                <option value="2">LAS</option>
+                <option value="3">NA</option>
+                <option value="4">OCE</option>
+                <option value="5">PBE</option>
+                <option value="6">RU</option>
+                <option value="7">TR</option>
+                <option value="8">KR</option>
+                <option value="9">EUW</option>
+                <option value="10">EUNE</option>
+                <option value="11">BR</option>
+              </select>
+            </label>
+          </div>
+          <p class="vs_search">
+            VS
+          </p>
+          <div class="search_player">
+            <label>Nombre de invocador</label>
+            <input type="text" name="name" value="" id="user2">
+            <label>Región
+              <select name="select" id="region2">
+                <option value="1">LAN</option>
+                <option value="2">LAS</option>
+                <option value="3">NA</option>
+                <option value="4">OCE</option>
+                <option value="5">PBE</option>
+                <option value="6">RU</option>
+                <option value="7">TR</option>
+                <option value="8">KR</option>
+                <option value="9">EUW</option>
+                <option value="10">EUNE</option>
+                <option value="11">BR</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="search_button" >
+          <button type="button" id="fight_button" name="button" class="ok">Luchar</button>
+          <div id="searchButton">
+            <button type='button' id='cancel_button' name='button' class='cancel'>Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <h1>VS LOL</h1>
+      <button type="button" name="button" id="headerButton">Buscar</button>
+    </header>
+    <div id="main">
+      <div class="foto_alpha">
+      </div>
+      <div class="foto" style="background: url(http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg)">
+      </div>
+      <section class="user_info" id="user_info">
+        <div class="user" id="user1">
+        </div>
+        <p class="vs">
+          VS
+        </p>
+        <div class="user" id="user2">
+        </div>
+      </section>
+      <section class="stats" id="stats">
+        <div class="user" id="stats1">
+        </div>
+        <div class="user" id="stats2">
+        </div>
+      </section>
+    </div>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
